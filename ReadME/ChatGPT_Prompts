@@ -1,0 +1,18 @@
+# Prompts to make this code.
+Write python code, to connect to ChatGPT API using gpt-3.5-turbo.
+uses dotenv and PyQt6.
+Load a form called "Chat.ui".
+limit token to 100, and the reply to be serious and factual.
+Create the .ui file for the code. have a question box at the top with a button underneath and then the reply box.
+The reply box to have the intial question asked and then the reply.
+The question box to initially have the Question "What are you."
+have a text label for the question and answer box.
+In another code block, show the .ui file.
+
+## Prompts with Dropdownbox
+1. Have variable "Models" which is initially set to "gpt-3.5-turbo", which is associated with .ui models_combobox.
+models_combobox dropdownlist will have "gpt-3.5-turbo", "GPT-3.5-turbo-0301", "gpt-4".
+2. Have variable "temperature" which is initially set to "0.2", which is associated with .ui temp_combobox.
+temp_combobox dropdownlist will have a range from 0.0 to 1.0 in steps of 0.1
+3. Have variable "max_tokens" which is initially set to "100", which is associated with .ui tokens_combobox.
+tokens_combobox dropdownlist will have a range from 100 to 2000 in steps of 100
